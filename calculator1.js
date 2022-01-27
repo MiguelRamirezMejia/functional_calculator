@@ -61,7 +61,15 @@ for(var i = 0; i < btn.length; i++){
 				break;
 			case "=":
 				
+				var ecuacion = inputVal;
 				
+				if(ecuacion){
+					try {
+						input.innerHTML = eval(ecuacion);
+					} catch (e) {
+						alert('Error en la expresión');
+
+					} 
 				}
 				break;
 			default:
