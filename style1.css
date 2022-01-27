@@ -37,7 +37,9 @@ html {
 	margin:0 auto;
 	padding:2px;
 	background-color: #E37926;
- 
+        border: 1px solid #000000;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
 
    
 }
